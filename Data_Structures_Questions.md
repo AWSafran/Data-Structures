@@ -4,9 +4,15 @@ Answer the following questions for each of the data structures you implemented a
 
 1. What is the runtime complexity of `enqueue`?
 
+    `The runtime complexity of enqueue is O(1), because we can directly access and modify the last element of the linked list to make it point to our new element, regardless of the length of the list`
+
 2. What is the runtime complexity of `dequeue`?
 
+    `The runtime complexity of dequeue is also O(1), because we need only take the value of the first item, and redirect the list's haed pointer to point to the second item, which is not affected by the lenght of the lsit`
+
 3. What is the runtime complexity of `len`?
+
+    `In this case, the runtime complexity of len is O(1) because len is tracked with each addition/removal, and can be immediately accessed`
 
 ## Binary Search Tree
 
